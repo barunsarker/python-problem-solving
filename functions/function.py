@@ -258,3 +258,11 @@ total_marks(80, 75, 90)
 # Output 245
 # ===============================
 
+# 🟢 Function Problem 25 — Calculate Average Marks
+# Problem Statement:
+# Write a Python function named average_marks(math, english, science) that takes marks of three subjects as arguments and prints the average marks.
+def average_marks(math, english, science):
+    average = (math+english+science)/3
+    print(average)
+average_marks(80, 75, 90)
+# Output 81.6666666666
