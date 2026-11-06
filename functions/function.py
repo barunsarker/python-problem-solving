@@ -224,3 +224,16 @@ def calculate_discount(price, discount):
     print(discount_amount)
 calculate_discount(1000, 10)
 # Output 100.0
+# ==============================
+
+
+# 🟢 Function Problem 22 — Final Price After Discount
+# Problem Statement:
+# Write a Python function named final_price(price, discount) that takes the original price and discount percentage as arguments and prints the final price after applying the discount.
+def final_price(price, discount):
+    discount = (price*discount)/100
+    final_price = price-discount
+    print(final_price)
+final_price(1000, 10)
+# Output 900.0
+# ===========================
