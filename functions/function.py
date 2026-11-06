@@ -168,7 +168,7 @@ check_divisible(10, 2)
 # Write a Python function named percentage(obtained, total) that takes the obtained marks and total marks as arguments and prints the percentage.
 def percentage(obtained, total):
     percent = obtained/total*100
-    print(percent)
-    
+    print(f"{percent}%")
+
 percentage(80, 100)
-# Output 80.00
+# Output 80.00%
