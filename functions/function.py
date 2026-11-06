@@ -215,3 +215,12 @@ total_price(100, 5)
 # Output 500
 # ==================================
 
+
+# 🟢 Function Problem 21 — Calculate Discount
+# Problem Statement:
+# Write a Python function named calculate_discount(price, discount) that takes the original price and discount percentage as arguments and prints the discount amount.
+def calculate_discount(price, discount):
+    discount_amount = (price* discount)/100
+    print(discount_amount)
+calculate_discount(1000, 10)
+# Output 100.0
