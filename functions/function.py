@@ -194,3 +194,14 @@ def rectangle_area(length, width):
 rectangle_area(10, 5)
 # Output 50
 # ==============================
+
+# 🟢 Function Problem 19 — Calculate Temperature
+# Problem Statement:
+# Write a Python function named celsius_to_fahrenheit(celsius) that takes a temperature in Celsius as an argument and prints the temperature in Fahrenheit.
+def celsius_to_fahrenheit(celsius):
+    fahrenheit = (celsius*9/5)+32
+    print(fahrenheit)
+celsius_to_fahrenheit(25)
+# Output 77.0
+# =================================
+
