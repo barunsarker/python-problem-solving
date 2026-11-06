@@ -205,3 +205,13 @@ celsius_to_fahrenheit(25)
 # Output 77.0
 # =================================
 
+# 🟢 Function Problem 20 — Calculate Total Price
+# Problem Statement:
+# Write a Python function named total_price(price, quantity) that takes the price of one item and the quantity as arguments and prints the total price.
+def total_price(price, quantity):
+    total_price= price*quantity
+    print(total_price)
+total_price(100, 5)
+# Output 500
+# ==================================
+
