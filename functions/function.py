@@ -252,8 +252,8 @@ calculate_bmi(70, 1.75)
 # Problem Statement:
 # Write a Python function named total_marks(math, english, science) that takes marks of three subjects as arguments and prints the total marks.
 def total_marks(math, english, science):
-    total_marks = math+english+science
-    print(total_marks)
+    total = math+english+science
+    print(total)
 total_marks(80, 75, 90)
 # Output 245
 # ===============================
