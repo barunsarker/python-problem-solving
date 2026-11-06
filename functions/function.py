@@ -237,3 +237,14 @@ def final_price(price, discount):
 final_price(1000, 10)
 # Output 900.0
 # ===========================
+
+# 🟢 Function Problem 23 — Calculate BMI
+# Problem Statement:
+# Write a Python function named calculate_bmi(weight, height) that takes a person's weight in kilograms and height in meters as arguments and prints their BMI.
+def calculate_bmi(weight, height):
+    BMI = weight/(height*height)
+    print(BMI)
+calculate_bmi(70, 1.75)
+# Output 22.857142857142858
+# ===============================
+
