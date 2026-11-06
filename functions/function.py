@@ -185,5 +185,12 @@ simple_interest(1000, 5, 2)
 # Ourput 100.0
 # =============================
 
-
-
+# 🟢 Function Problem 17 — Calculate Area of Rectangle
+# Problem Statement:
+# Write a Python function named rectangle_area(length, width) that takes the length and width of a rectangle as arguments and prints its area.
+def rectangle_area(length, width):
+    area = length*width
+    print(area)
+rectangle_area(10, 5)
+# Output 50
+# ==============================
