@@ -108,3 +108,18 @@ def check_number(n):
         
 check_number(-5)
 # Output Negative Number
+# =============================
+
+
+# ⚪ Function Problem 11 — Maximum of Two Numbers
+# Problem Statement:
+# Write a Python function named maximum(a, b) that takes two numbers as arguments and prints the larger number.
+
+def maximum(a, b):
+    if b > a:
+        print(b, 'is large')
+    else:
+        print(a, 'is large')
+        
+maximum(10, 25)
+# Output 25
