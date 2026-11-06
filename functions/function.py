@@ -136,3 +136,16 @@ def minimum(a, b):
         print(b, 'is small')
 minimum(10, 25)
 # Output 10 is small
+# ===============================
+
+
+# 🟢 Function Problem 13 — Check Equal Numbers
+# Problem Statement:
+# Write a Python function named check_equal(a, b) that takes two numbers as arguments and prints "Equal" if both numbers are equal; otherwise, prints "Not Equal".
+def eheck_equal(a, b):
+    if a==b:
+        print("Equal")
+    else:
+        print('Not Equal')
+eheck_equal(10, 10)
+# Output Equal
