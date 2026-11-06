@@ -79,3 +79,16 @@ def average(a, b, c):
     print(d)
 average(10, 20, 30)
 # Output 20.0
+# =======================
+
+# ⚪ Function Problem 09 — Even or Odd
+# Problem Statement:
+# Write a Python function named check_even_odd(n) that takes an integer as an argument and prints whether the number is Even or Odd.
+def check_even_odd(n):
+    if n%2!=0:
+        print(n, "is odd number")
+    else:
+        print(n, "is even number")
+        
+check_even_odd(7)
+# Output Odd 
