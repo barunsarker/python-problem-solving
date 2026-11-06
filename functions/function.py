@@ -169,6 +169,21 @@ check_divisible(10, 2)
 def percentage(obtained, total):
     percent = obtained/total*100
     print(f"{percent}%")
-
 percentage(80, 100)
 # Output 80.00%
+# ==================
+
+
+# 🟢 Function Problem 16 — Calculate Simple Interest
+# Problem Statement:
+# Write a Python function named simple_interest(principal, rate, time) that takes the principal amount, interest rate, and time as arguments and prints the simple interest.
+def simple_interest(principal, rate, time):
+    result = (principal* rate * time) / 100
+    print(result)
+
+simple_interest(1000, 5, 2)
+# Ourput 100.0
+# =============================
+
+
+
