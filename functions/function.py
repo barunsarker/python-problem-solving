@@ -92,3 +92,19 @@ def check_even_odd(n):
         
 check_even_odd(7)
 # Output Odd 
+# =======================
+
+# ⚪ Function Problem 10 — Positive, Negative or Zero
+# Problem Statement:
+# Write a Python function named check_number(n) that takes a number as an argument and prints whether the number is Positive, Negative, or Zero
+
+def check_number(n):
+    if n > 0:
+        print(n, 'is Positive Number')
+    elif n < 0:
+         print(n, "is Negative Number")
+    else:
+        print(n, 'is Zero')
+        
+check_number(-5)
+# Output Negative Number
