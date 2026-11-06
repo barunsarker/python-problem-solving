@@ -248,3 +248,13 @@ calculate_bmi(70, 1.75)
 # Output 22.857142857142858
 # ===============================
 
+# 🟢 Function Problem 24 — Calculate Total Marks
+# Problem Statement:
+# Write a Python function named total_marks(math, english, science) that takes marks of three subjects as arguments and prints the total marks.
+def total_marks(math, english, science):
+    total_marks = math+english+science
+    print(total_marks)
+total_marks(80, 75, 90)
+# Output 245
+# ===============================
+
