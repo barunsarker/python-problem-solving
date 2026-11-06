@@ -122,4 +122,17 @@ def maximum(a, b):
         print(a, 'is large')
         
 maximum(10, 25)
-# Output 25
+# Output 25 large Number
+# ===================
+
+
+# ⚪ Function Problem 12 — Minimum of Two Numbers
+# Problem Statement:
+# Write a Python function named minimum(a, b) that takes two numbers as arguments and prints the smaller number.
+def minimum(a, b):
+    if a < b:
+        print(a, 'is small')
+    else:
+        print(b, 'is small')
+minimum(10, 25)
+# Output 10 is small
