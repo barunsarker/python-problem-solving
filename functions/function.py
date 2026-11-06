@@ -149,3 +149,16 @@ def eheck_equal(a, b):
         print('Not Equal')
 eheck_equal(10, 10)
 # Output Equal
+# ===========================
+
+# 🟢 Function Problem 14 — Check Divisibility
+# Problem Statement:
+# Write a Python function named check_divisible(a, b) that takes two integers as arguments and prints "Divisible" if a is completely divisible by b; otherwise, prints "Not Divisible".
+def check_divisible(a, b):
+    if a%b==0:
+        print("Divisible")
+    else:
+        print("Not Divisible")
+check_divisible(10, 2)
+# Output Divisible
+# =================================
