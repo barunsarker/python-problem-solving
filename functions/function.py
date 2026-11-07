@@ -266,3 +266,20 @@ def average_marks(math, english, science):
     print(average)
 average_marks(80, 75, 90)
 # Output 81.6666666666
+# ==============================
+# 🟢 Function Problem 26 — Grade Calculator
+# Problem Statement:
+# Write a Python function named calculate_grade(marks) that takes a student's marks as an argument and prints the grade according to the following rules:
+def calculate_grade(marks):
+    if marks >=80 and marks <= 100:
+        print("A+")
+    elif marks >=70:
+        print("A")
+    elif marks >=60:
+        print("B")
+    elif marks >=50:
+        print("C")
+    else:
+        print("F")
+calculate_grade(85)
+# Output A+
