@@ -283,3 +283,16 @@ def calculate_grade(marks):
         print("F")
 calculate_grade(85)
 # Output A+
+# ===================================
+# 🟢 Function Problem 27 — Count Digits
+# Problem Statement:
+# Write a Python function named count_digits(n) that takes an integer as an argument and prints the number of digits in that number.
+def count_digits(n):
+    count=0
+    while n > 0:
+        n=n//10
+        count+=1
+    print(count)
+count_digits(12345)
+# Output 5
+# ===========================
