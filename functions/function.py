@@ -311,3 +311,17 @@ def sum_of_digit(n):
 sum_of_digit(12345)
 # output 15
 # =================================
+# 🟢 Function Problem 29 — Reverse a Number
+# Problem Statement:
+# Write a Python function named reverse_number(n) that takes a positive integer as an argument and prints the number in reverse order.
+# input 12345
+# output 54321
+def reverse_number(n):
+    reverse=0
+    while n > 0:
+        digits = n%10
+        reverse=reverse*10+digits
+        n=n//10
+    print(reverse)
+reverse_number(12345)
+# output 54321
