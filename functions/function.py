@@ -363,9 +363,9 @@ def factorial(n):
 factorial(5)
 # output 120
 # ====================================
-# 🟢 Function Problem 33 — Count Odd Numbers
+# Function Problem 32 — Count Even Numbers
 # Problem Statement:
-# Write a Python function named count_odd(numbers) that takes a list of integers as an argument and prints how many odd numbers are present in the list.
+# Write a Python function named count_even(numbers) that takes a list of integers as an argument and prints how many even numbers are present in the list.
 
 list=[10, 15, 20, 25, 30, 35]
 
