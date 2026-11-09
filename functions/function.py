@@ -325,3 +325,27 @@ def reverse_number(n):
     print(reverse)
 reverse_number(12345)
 # output 54321
+# ============================
+# 🟢 Function Problem 30 — Palindrome Number
+# Problem Statement:
+# Write a Python function named is_palindrome(n) that takes a positive integer as an argument and checks whether the number is a palindrome or not.
+
+# A palindrome number reads the same forward and backward.
+# input 121
+# output palindrome number
+def is_palindrome(n):
+    main_number=n
+    reverse=0
+    while n > 0:
+        digits = n%10
+        reverse=reverse*10+digits
+        n//=10
+
+    print(reverse)
+    if main_number==reverse:
+        print("Palindrome Number")
+    else:
+        print("Not palindrome Number")
+is_palindrome(121)
+# output palindrome number
+# =============================
