@@ -296,3 +296,18 @@ def count_digits(n):
 count_digits(12345)
 # Output 5
 # ===========================
+# 🟢 Function Problem 28 — Sum of Digits
+# Problem Statement:
+# Write a Python function named sum_of_digits(n) that takes a positive integer as an argument and prints the sum of all its digits.
+# input 12345
+# output 15
+def sum_of_digit(n):
+    total = 0
+    while n > 0:
+        digits = n%10
+        total= total+digits
+        n=n//10
+    print(total)
+sum_of_digit(12345)
+# output 15
+# =================================
