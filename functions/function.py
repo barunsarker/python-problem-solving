@@ -349,3 +349,17 @@ def is_palindrome(n):
 is_palindrome(121)
 # output palindrome number
 # =============================
+# 🟢 Function Problem 31 — Factorial
+# Problem Statement:
+# Write a Python function named factorial(n) that takes a positive integer as an argument and prints its factorial.
+# The factorial of a number is the product of all positive integers from 1 to that number.
+# input 5
+def factorial(n):
+    result = 1
+    while n > 0:
+        result=result*n
+        n=n-1
+    print(result)
+factorial(5)
+# output 120
+# ====================================
