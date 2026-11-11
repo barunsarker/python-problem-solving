@@ -413,6 +413,7 @@ find_max(list)
 
 # output 40
 # =========================
+
 # 🟢 Function Problem 35 — Find Minimum in a List
 # Problem Statement:
 # Write a Python function named find_min(numbers) that takes a list of integers as an argument and prints the smallest number in the list.
@@ -426,3 +427,20 @@ def find_min(numbers):
     
 find_min(list)
 # Output 7
+# ==========================
+
+# 🟢 Function Problem 36 — Sum of List Elements
+# Problem Statement:
+# Write a Python function named sum_list(numbers) that takes a list of integers as an argument and prints the sum of all elements in the list.
+    
+list = [10, 20, 30, 40, 50]
+def sum_list(numbers):
+    total = 0
+    for i in numbers:
+        total = total+i
+    print(total)
+
+sum_list(list)
+
+# Output 150
+# ==========================
