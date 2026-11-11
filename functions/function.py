@@ -412,4 +412,17 @@ def find_max(numbers):
 find_max(list)
 
 # output 40
-
+# =========================
+# 🟢 Function Problem 35 — Find Minimum in a List
+# Problem Statement:
+# Write a Python function named find_min(numbers) that takes a list of integers as an argument and prints the smallest number in the list.
+list = [10, 25, 7, 40, 18]
+def find_min(numbers):
+    min_number = numbers[0]
+    for i in numbers:
+        if i < min_number:
+            min_number=i
+    print(min_number)
+    
+find_min(list)
+# Output 7
