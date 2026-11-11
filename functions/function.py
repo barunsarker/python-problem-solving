@@ -395,3 +395,21 @@ def count_odd(numbers):
 
 count_odd(list)
 # Output 3
+# =========================
+# 🟢 Function Problem 34 — Find Maximum in a List
+# Problem Statement:
+# Write a Python function named find_max(numbers) that takes a list of integers as an argument and prints the largest number in the list.
+# input list = [10, 25, 7, 40, 18]
+
+list = [10, 25, 7, 40, 18]
+
+def find_max(numbers):
+    max= numbers[0]
+    for i in numbers:
+        if i > max:
+            max=i
+    print(max)
+find_max(list)
+
+# output 40
+
