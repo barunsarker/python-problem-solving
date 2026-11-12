@@ -458,7 +458,6 @@ def average_list(numbers):
         total = total+i
         average=total/count
     print(average)
-        
 average_list(list)
 # Output 30
 # ================================
@@ -473,6 +472,21 @@ def count_positive(numbers):
         if i > 0:
          count=count+1
     print(count)
-
 count_positive(list)
 # output 3
+# =============================
+# 🟢 Function Problem 39 — Count Negative Numbers
+# Problem Statement:
+# Write a Python function named count_negative(numbers) that takes a list of integers as an argument and prints how many negative numbers are present in the list.
+list = [-5, 10, -3, 20, 0, 15]
+def count_negitive(numbers):
+    count =0
+    for i in numbers:
+        if i < 0:
+            count=count+1
+    print(count)
+count_negitive(list)
+# output 2
+# =================================
+
+
