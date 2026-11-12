@@ -444,3 +444,21 @@ sum_list(list)
 
 # Output 150
 # ==========================
+
+
+# 🟢 Function Problem 37 — Calculate List Average
+# Problem Statement:
+# Write a Python function named average_list(numbers) that takes a list of integers as an argument and prints the average of all elements in the list.
+list = [10, 20, 30, 40, 50]
+def average_list(numbers):
+    count = 0
+    total = 0
+    for i in numbers:
+        count = count+1
+        total = total+i
+        average=total/count
+    print(average)
+        
+average_list(list)
+# Output 30
+# ================================
