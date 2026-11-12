@@ -462,3 +462,17 @@ def average_list(numbers):
 average_list(list)
 # Output 30
 # ================================
+
+# 🟢 Function Problem 38 — Count Positive Numbers
+# Problem Statement:
+# Write a Python function named count_positive(numbers) that takes a list of integers as an argument and prints how many positive numbers are present in the list.
+list = [-5, 10, -3, 20, 0, 15]
+def count_positive(numbers):
+    count = 0
+    for i in numbers:
+        if i > 0:
+         count=count+1
+    print(count)
+
+count_positive(list)
+# output 3
