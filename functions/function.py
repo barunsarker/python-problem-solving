@@ -488,5 +488,24 @@ def count_negitive(numbers):
 count_negitive(list)
 # output 2
 # =================================
+# 🟢 Function Problem 40 — Find Second Largest Number
+# Problem Statement:
+# Write a Python function named second_largest(numbers) that takes a list of integers as an argument and prints the second largest number in the list.
+list = [10, 25, 7, 40, 18]
 
+def second_largest(numbers):
+    
+    second = float('-inf')
+    maximum = float('-inf')
+    
+    for i in numbers:
+        if i > maximum:
+            second = maximum
+            maximum = i
+        elif i > second and i != maximum:
+            second = i
+
+    print(second)
+second_largest(list)
+# Output = 25
 
