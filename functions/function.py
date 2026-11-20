@@ -525,3 +525,18 @@ remove_duplicates(lst)
 # Output = [10, 20, 30, 40]
 # =============================
 
+
+# 🟢 Function Problem 42 — Find Common Elements
+# Problem Statement
+# Write a Python function named find_common(numbers1, numbers2) that takes two lists of integers as arguments and prints the elements that are present in both lists.
+numbers1 = [10, 20, 30, 40, 50]
+numbers2 = [30, 40, 50, 60, 70]
+def find_common(numbers1, numbers2):
+    a=set(numbers1)
+    b=set(numbers2)
+    result=a.intersection(b)
+    print(sorted(result))
+    
+find_common(numbers1, numbers2)
+# Output [30, 40, 50]
+# =============================
