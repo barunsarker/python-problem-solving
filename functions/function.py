@@ -508,4 +508,20 @@ def second_largest(numbers):
     print(second)
 second_largest(list)
 # Output = 25
+# ============================
+
+# 🟢 Function Problem 41 — Remove Duplicates।
+# Problem Statement
+# Write a Python function named remove_duplicates(numbers) that takes a list of integers as an argument and prints a new list containing only the unique elements.
+lst = [10, 20, 10, 30, 20, 40, 30]
+
+def remove_duplicates(numbers):
+    numbers =(set(numbers))
+    print(numbers)
+    result=sorted(numbers)
+    print(result)
+    
+remove_duplicates(lst)
+# Output = [10, 20, 30, 40]
+# =============================
 
