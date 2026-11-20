@@ -540,3 +540,18 @@ def find_common(numbers1, numbers2):
 find_common(numbers1, numbers2)
 # Output [30, 40, 50]
 # =============================
+
+# 🟢 Function Problem 43 — Find Unique Elements
+# Problem Statement
+# Write a Python function named find_unique(numbers) that takes a list of integers as an argument and prints the elements that appear only once in the list.
+lst = [10, 20, 10, 30, 40, 20, 50]
+
+def find_unique(numbers):
+    resutl = []
+    for i in numbers:
+        if numbers.count(i)==1:
+            resutl.append(i)
+    print(resutl)
+find_unique(lst)
+# Output [30, 40, 50]
+# ==================================
