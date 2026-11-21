@@ -587,3 +587,31 @@ def remove_element(numbers, target):
 remove_element(numbers, target)
 # Output [20, 30, 40]
 # ==========================
+
+
+# 🟢 Function Problem 47 — Find Duplicate Elements
+# Problem Statement
+# Write a Python function named find_duplicates(numbers) that takes a list of integers as an argument and prints all elements that appear more than once.
+numbers = [10, 20, 10, 30, 20, 10, 50,100, 20, 60, 30,20, 100, 40, 50, 60, 40, 70, 100, ]
+
+def element_frequency(numbers):
+    
+    for i in set(numbers):
+        result=numbers.count(i)
+        
+        if result==1:
+            print(i, "appears", result, "time")
+        else:
+            print(i, "appears", result, "times")
+
+element_frequency(numbers)
+# output 
+        100 appears 3 times
+        70 appears 1 time
+        40 appears 2 times
+        10 appears 3 times
+        50 appears 2 times
+        20 appears 4 times
+        60 appears 2 times
+        30 appears 2 times
+# ====================================
