@@ -570,3 +570,20 @@ count_occurrences(numbers, target)
 
 # Output 3
 # ==========================
+
+# 🟢 Function Problem 45 — Remove a Specific Element
+# Problem Statement
+# Write a Python function named remove_element(numbers, target) that takes a list of integers and a target number as arguments and prints a new list after removing all occurrences of the target number.
+
+numbers = [10, 20, 10, 30, 10, 40]
+target = 10
+
+def remove_element(numbers, target):
+    result=[]
+    for i in numbers:
+        if i!=target:
+            result.append(i)
+    print(result)
+remove_element(numbers, target)
+# Output [20, 30, 40]
+# ==========================
