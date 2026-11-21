@@ -555,3 +555,18 @@ def find_unique(numbers):
 find_unique(lst)
 # Output [30, 40, 50]
 # ==================================
+
+# 🟢 Function Problem 44 — Count Occurrences
+# Problem Statement
+# Write a Python function named count_occurrences(numbers, target) that takes a list of integers and a target number as arguments and prints how many times the target number appears in the list.
+
+numbers = [10, 20, 10, 30, 10, 40, 20]
+target = 10
+
+def count_occurrences(numbers, target):
+        result=numbers.count(target)
+        print(result)
+count_occurrences(numbers, target)
+
+# Output 3
+# ==========================
