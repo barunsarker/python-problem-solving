@@ -647,3 +647,25 @@ def find_missing(numbers):
             print(i)
 find_missing(numbers)
 # =========================
+# 🟢 Function Problem 49 — Find Second Smallest Number
+# Write a Python function named second_smallest(numbers) that takes a list of integers as an argument and prints the second smallest number.
+
+# Example Input:
+# numbers = [10, 25, 7, 40, 18]
+# Expected Output:10
+
+numbers = [10, 25, 7, 40, 18]
+def second_smallest(numbers):
+    smallest=float("inf")
+    second_smallest=float("inf")
+    for i in numbers:
+        if i < smallest:
+            second_smallest=smallest
+            smallest=i
+        elif i < second_smallest  and i != smallest:
+            second_smallest=i
+    print(second_smallest)
+    print(smallest)
+    
+second_smallest(numbers)
+# =============================
