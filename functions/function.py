@@ -631,3 +631,19 @@ def find_duplicates(numbers):
             
 find_duplicates(numbers)
 # output [10, 20, 30]
+# =============================
+
+
+# 🟢 Function Problem 48 — Find Missing Number
+# Problem Statement:
+# Write a Python function named find_missing(numbers) that takes a list of integers from 1 to n, with one number missing, and prints the missing number.
+# Example Input:
+# numbers = [1, 2, 3, 5, 6]
+# Expected Output: 4
+numbers = [1, 2, 3, 5, 6]
+def find_missing(numbers):
+    for i in range(1, len(numbers)+2):
+        if i not in numbers:
+            print(i)
+find_missing(numbers)
+# =========================
