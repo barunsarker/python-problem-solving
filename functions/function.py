@@ -693,3 +693,29 @@ def separate_even_odd(numbers):
     print(f"odd:{odd}")
     
 separate_even_odd(numbers)
+
+# 🟢 Function Problem 51 — Move Zeros to End
+# Write a Python function named move_zeros(numbers) that takes a list of integers as an argument and moves all zeros to the end of the list.
+
+# The order of the non-zero elements must remain unchanged.
+
+# Example Input:
+# numbers = [0, 10, 0, 20, 30, 0, 40]
+
+# Expected Output:
+# [10, 20, 30, 40, 0, 0, 0]
+# numbers = [0, 10, 0, 20, 30, 0, 40]
+
+def move_zeros(numbers):
+    zeros=[]
+    non_zero =[]
+
+    for i in numbers:
+        if i != 0:
+            zeros.append(i)
+        else:
+            non_zero.append(i)
+    result=zeros+non_zero
+    print(result)
+
+move_zeros(numbers)
