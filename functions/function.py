@@ -669,3 +669,27 @@ def second_smallest(numbers):
     
 second_smallest(numbers)
 # =============================
+
+# 🟢 Function Problem 50 — Separate Even and Odd Numbers
+# Write a Python function named separate_even_odd(numbers) that takes a list of integers as an argument and prints two separate lists: one containing all even numbers and another containing all odd numbers.
+
+# Example Input:
+# numbers = [10, 15, 20, 25, 30, 35]
+
+# Expected Output:
+# Even: [10, 20, 30]
+# Odd: [15, 25, 35]
+
+numbers = [10, 15, 20, 25, 30, 35]
+def separate_even_odd(numbers):
+    even=[]
+    odd=[]
+    for i in numbers:
+        if i%2==0:
+            even.append(i)
+        else:
+            odd.append(i)
+    print(f"even: {even}")
+    print(f"odd:{odd}")
+    
+separate_even_odd(numbers)
